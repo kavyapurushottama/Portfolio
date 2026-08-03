@@ -2260,6 +2260,21 @@
     /* PROJECTS */
     const projects = [
       {
+        title: "DocuMind AI",
+        img: "images/DocuMind.png",
+        alt: "DocuMind AI",
+        desc: "A multi-tenant AI knowledge workspace that transforms documents into an intelligent, searchable knowledge base using Retrieval-Augmented Generation (RAG) with privacy-first local embeddings.",
+        stack: "React &middot; TypeScript &middot; FastAPI &middot; LangChain &middot; Qdrant &middot; PostgreSQL &middot; Docker &middot; Ollama &middot; RAG",
+        bullets: [
+          "Built a multi-tenant AI knowledge workspace supporting PDF, DOCX, TXT, and Markdown documents, enabling semantic search and citation-aware conversational AI through Retrieval-Augmented Generation (RAG).",
+          "Designed an end-to-end document ingestion pipeline with structured extraction, sliding-window chunking, local embedding generation using Ollama, and high-performance semantic retrieval using Qdrant Vector Database.",
+          "Implemented JWT authentication, per-user document isolation, configurable LLM providers (Groq/Gemini), and intelligent workspace-scoped retrieval to ensure secure, privacy-preserving AI interactions.",
+          "Engineered a production-ready FastAPI backend with PostgreSQL, Docker, and modular AI services, providing a scalable architecture for future enterprise integrations and advanced AI capabilities."
+        ],
+        link: "https://github.com/kavyapurushottama/DocuMind-AI", gh: "https://github.com/kavyapurushottama/DocuMind-AI"
+      },
+
+      {
         title: "Vulnerability Scanner", img: "images/VulnScanner.png", alt: "Vulnerability Scanner",
         desc: "Automated security scanning platform combining static and dynamic analysis with real-time CVE intelligence.",
         stack: "Python &middot; Flask &middot; Bandit &middot; OWASP ZAP &middot; NVD API",
@@ -2339,17 +2354,6 @@
           "Implemented an AI opponent using the Minimax algorithm to play optimally against the user.",
           "Added win/draw detection logic and a reset option for replaying without restarting the app."
         ], link: "https://github.com/kavyapurushottama/Tic-Tac-Toe", gh: "https://github.com/kavyapurushottama/Tic-Tac-Toe"
-      },
-
-      {
-        title: "QR Generator", img: "images/QR_Code.png", alt: "QR Generator",
-        desc: "Desktop GUI tool for generating and saving custom QR codes from text or URLs.",
-        stack: "Python &middot; Tkinter &middot; qrcode",
-        bullets: [
-          "Built a desktop GUI application for generating QR codes from custom text or URLs.",
-          "Used the qrcode library to render codes and allow users to save them as image files.",
-          "Designed a simple Tkinter interface for quick input and instant QR preview."
-        ], link: "https://github.com/kavyapurushottama/QR-Generator", gh: "https://github.com/kavyapurushottama/QR-Generator"
       },
 
       {
